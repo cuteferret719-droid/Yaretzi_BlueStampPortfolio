@@ -59,47 +59,57 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
+float filteredValue = 0;
+
 void setup() {
   Serial.begin(9600);
+
+  // LED pins
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
   pinMode(8, OUTPUT);
+
+  // Startup LED test
   digitalWrite(10, HIGH);
-  delay(500);
+  delay(50);
   digitalWrite(9, HIGH);
-  delay(500);
+  delay(50);
   digitalWrite(8, HIGH);
-  delay(500);
+  delay(50);
+
+  digitalWrite(10, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(8, LOW);
 }
 
 void loop() {
-   if (analogRead(A0) > 900)
-{
-  digitalWrite(8, HIGH);
-}
-else
-{
-  digitalWrite(8, LOW);
-}
-  if (analogRead(A0) > 300)
-{
-  digitalWrite(9, HIGH);
-}
-else
-{
-  digitalWrite(9, LOW);
-}
-  if (analogRead(A0) > 600)
-{
-  digitalWrite(10, HIGH);
-}
-else
-{
-  digitalWrite(10 , LOW);
-}
 
-  Serial.println(analogRead(A0));
-  delay(20);
+  // Average 5 readings
+  long total = 0;
+
+  for (int i = 0; i < 5; i++) {
+    total += analogRead(A0);
+    delay(2);
+  }
+
+  float sensorValue = total / 5.0;
+
+  // Light smoothing (more responsive)
+  filteredValue = 0.70 * filteredValue + 0.30 * sensorValue;
+
+  // LED indicators
+  digitalWrite(10, filteredValue > 300);
+  digitalWrite(9, filteredValue > 600);
+  digitalWrite(8, filteredValue > 900);
+
+  // Serial Plotter scale
+  Serial.print(95);
+  Serial.print(",");
+  Serial.print(115);
+  Serial.print(",");
+  Serial.println(filteredValue);
+
+  delay(50);
 }
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
