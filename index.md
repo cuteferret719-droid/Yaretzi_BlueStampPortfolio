@@ -1,5 +1,5 @@
 Yaretzi's electrodermal lie detector journey
-The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat and skin activity. It can also keep track of the persons pulse rate to also help determine if the person is lying.  Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat and skin activity. It can also keep track of the persons pulse rate to also help determine if the person is lying.  
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
