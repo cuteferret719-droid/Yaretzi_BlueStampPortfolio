@@ -13,7 +13,8 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![<img width="1536" height="855" alt="schematic" src="https://github.com/user-attachments/assets/7924b88b-14d0-4f42-aef8-3dbfb5cde14f" />
+](logo.svg)
   
 # Final Milestone
 
