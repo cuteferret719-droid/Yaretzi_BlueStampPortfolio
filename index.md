@@ -41,9 +41,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
-# First Milestone
-
-
+# First Milestone 
 
 <iframe width="560" height="315" src="https://youtu.be/weRS4PkNmuc?si=XJl9Dh3pNPmFSgR2" title="Yaretzi H's first milestone video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>4
 
@@ -110,7 +108,7 @@ void loop() {
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino Uno | Used for reading inputs such as messages and turn it into outputs that help power your device, project and system  | $300 | <a href="https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_2/131-0474986-0583845?pd_rd_w=30Dnf&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=4M85MYH929P05F0S87WE&pd_rd_wg=mQCZ8&pd_rd_r=f31547c7-ca98-4c5b-8d6c-de526028cac2&pd_rd_i=B01EWOE0UU&psc=1"> Link </a> |
-| Buzzer/LED/Vibrtion | What the item is |$6.55 | <a href="https://www.amazon.com/s?k=led&i=industrial&crid=16ERNF7Q0TF4J&sprefix=LED%2Cindustrial%2C139&ref=nb_sb_ss_p13n-expert-pd-ops-ranker_ci_hl-bn-left_1_3"> Link </a> |
+| Buzzer/LED/Vibrtion | helps light up your project or used for display |$6.55 | <a href="https://www.amazon.com/s?k=led&i=industrial&crid=16ERNF7Q0TF4J&sprefix=LED%2Cindustrial%2C139&ref=nb_sb_ss_p13n-expert-pd-ops-ranker_ci_hl-bn-left_1_3"> Link </a> |
 | copper tape| used to help transfer heat, electricity and radio frequency | $8 | <a href="https://www.amazon.com/Kirecoo-Conductive-Shielding-Electrical-Grounding/dp/B09Z6F9RFG/ref=sr_1_3?crid=1B68CK1WOG3P4&dib=eyJ2IjoiMSJ9.XmUtSyIic8_E3Qr4oK0quFqV9fQ6eofMY8kCHCHy57CcqSmDx18Rf31a90Wv61yYUJ4oaqIZZuwm00UHEMmgEWCulK4Jwb5SZQ-ykWRvnCuBjgLGfe22nfYrrBYvTholtkBaGdWaXhofmMy6LLKxkloBLb-N-xGERRh2ZG7z5kaYjcv5CgjAku5dh2hnZTclk10pyIZTSwNo9yHlWLbWey_m3_xOx2zASkp4Zv2CFBv3AkFwcgKYXTqSkg6s4q0bauvDUCmrjmCl9q6HQIdpmTvQgNWxRjzyW_4M-Y6yUgw.a_KhWh2DD4US_KU9CUpbV1ySZoJ660q5hhSOkaY1IEE&dib_tag=se&keywords=copper+tape&qid=1783525907&s=industrial&sprefix=copper+%2Cindustrial%2C113&sr=1-3"> Link </a> |
 | aluminum| used for building, wiring and transfering power  | $5.67 | <a href="https://www.amazon.com/Reynolds-Wrap-Heavy-Strength-50/dp/B00279LYL6/ref=sr_1_8?dib=eyJ2IjoiMSJ9.cHXovjINofGmqe7Oson_QernHShvUr9tUGkBzrTrGYsHdb_JAbNu03pJZ8C97m29xVM6vHcRB0A1TX7I66NU4fZhrTEuuFcCIuiDqE5nOT3C4ICc8EZSCLZB8fSR-ay7UD2z50VxJLR5VPDkt2kDXMN_rZ2rrcsgatqCzrs62yvbTjvJ1i0aI-LsE5034A9fZWcNYVMQKiKdOmcIgdZkfIEu2hnddZOE_F_mfGgeNRwvVsQ-x6kx2e3kF3i75NwM2zDXRc0h7GBBL6GRdVH-X98kdzNZx-dFyL4bv03kUsw.Z-Gg9cga0WokVBZqyMMUJvnEHKdmWwFspmf1RhqRmTs&dib_tag=se&keywords=aluminum%2Bfoil&qid=1783527530&rdc=1&sr=8-8&th=1"> Link </a> |
 
