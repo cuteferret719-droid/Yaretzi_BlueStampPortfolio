@@ -11,10 +11,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![<img width="1536" height="855" alt="schematic" src="https://github.com/user-attachments/assets/7924b88b-14d0-4f42-aef8-3dbfb5cde14f" />
-](logo.svg)
+![Headstone Image](project BSE.jpg)
   
 # Final Milestone
 
@@ -44,7 +41,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/weRS4PkNmuc?si=KxvP2u1hUvJEQvdV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/weRS4PkNmuc?si=7dlC6ik-W7aeEUK2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
