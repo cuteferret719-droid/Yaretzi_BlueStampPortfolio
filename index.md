@@ -12,7 +12,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore
 
-![Headstone Image](project BSE.jpg) 
+<img src="project GSR.jpg" alt="Headstone Image" width="500">
 
 # Final Milestone
 
