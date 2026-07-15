@@ -46,6 +46,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 [![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
 
+-what
 
 # Schematics For Lie Detector
 
@@ -123,3 +124,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
+# resources
+|:--:|:--:|:--:|:--:|
+| Breadboard tutorial | by LeftyMaker | <a href="https://www.youtube.com/watch?v=W6mixXsn-Vc"> Link </a> |
+| arduino tutorial | by Robonyx | <a href="https://www.youtube.com/watch?v=tiGw9PQbvrg"> Link </a>
