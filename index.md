@@ -49,7 +49,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Schematics For Lie Detector
 
-<img src="" alt="Headstone Image" width="500">. 
+<img src="updated schematic.png" alt="Headstone Image" width="500">. 
 
 # Code
 
