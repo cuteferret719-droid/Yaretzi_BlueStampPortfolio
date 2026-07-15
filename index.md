@@ -12,6 +12,8 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore |
 
+ # Project
+
 <img src="project BSE.jpg" alt="Headstone Image" width="500">
 
 # Final Milestone
@@ -47,7 +49,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Schematics For Lie Detector
 
-<img src="" alt="Headstone Image" width="500">. 
+<img src="schematic updated 2 3 4 5 6 7 8 9 0 .png" alt="Headstone Image" width="500">. 
 
 # Code
 
