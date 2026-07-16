@@ -2,7 +2,7 @@
 
 The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat and skin activity and it can also keep track of the persons pulse rate to also help determine if the person is lying.  
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 
@@ -58,7 +58,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Code
 
-
+'''HTML
 <!--- This is an HTML comment in Markdown -->
 
 float filteredValue = 0;
