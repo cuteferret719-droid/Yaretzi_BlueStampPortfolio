@@ -2,65 +2,10 @@
 
 The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat and skin activity and it can also keep track of the persons pulse rate to also help determine if the person is lying.  
 
+# Code for lie detector
 
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
-
-
-<!--- Anything between these symbols will not render on the published site -->
-```
-
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
-| Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore |
-
- # Project
-
-<img src="project BSE.jpg" alt="Headstone Image" width="500">
-
-# Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-
-
-# Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
-# First Milestone Video 
-
-[![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
-
--What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
--what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
--the challenges i've faced and overcame is the wiring overlapping
-
-# Schematics For Lie Detector
-
-<img src="updated schematic.png" alt="Headstone Image" width="500">. 
-
-# Code
-
-'''HTML
-<!--- This is an HTML comment in Markdown -->
-
 float filteredValue = 0;
 
 void setup() {
@@ -115,8 +60,53 @@ void loop() {
 }
 
 <!--- Anything between these symbols will not render on the published site -->
-'''
+```
 
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|:--:|
+| Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore |
+
+ # Project
+
+<img src="project BSE.jpg" alt="Headstone Image" width="500">
+
+# Final Milestone
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE
+
+
+
+# Second Milestone
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+- Technical details of what you've accomplished and how they contribute to the final goal
+- What has been surprising about the project so far
+- Previous challenges you faced that you overcame
+- What needs to be completed before your final milestone 
+
+# First Milestone Video 
+
+[![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
+
+-What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
+-what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
+-the challenges i've faced and overcame is the wiring overlapping
+
+# Schematics For Lie Detector
+
+<img src="updated schematic.png" alt="Headstone Image" width="500">. 
 
 # Bill of Materials
 
@@ -128,12 +118,6 @@ void loop() {
 | aluminum| used for building, wiring and transfering power  | $5.67 | <a href="https://www.amazon.com/Reynolds-Wrap-Heavy-Strength-50/dp/B00279LYL6/ref=sr_1_8?dib=eyJ2IjoiMSJ9.cHXovjINofGmqe7Oson_QernHShvUr9tUGkBzrTrGYsHdb_JAbNu03pJZ8C97m29xVM6vHcRB0A1TX7I66NU4fZhrTEuuFcCIuiDqE5nOT3C4ICc8EZSCLZB8fSR-ay7UD2z50VxJLR5VPDkt2kDXMN_rZ2rrcsgatqCzrs62yvbTjvJ1i0aI-LsE5034A9fZWcNYVMQKiKdOmcIgdZkfIEu2hnddZOE_F_mfGgeNRwvVsQ-x6kx2e3kF3i75NwM2zDXRc0h7GBBL6GRdVH-X98kdzNZx-dFyL4bv03kUsw.Z-Gg9cga0WokVBZqyMMUJvnEHKdmWwFspmf1RhqRmTs&dib_tag=se&keywords=aluminum%2Bfoil&qid=1783527530&rdc=1&sr=8-8&th=1"> Link </a> |
 | Breadboard| used for testing electronic circuits  | $5.67 | <a href="https://www.amazon.com/BOJACK-Values-Solderless-Breadboard-Flexible/dp/B08Y59P6D1/ref=sr_1_3?crid=WTOWOV0EMTN1&dib=eyJ2IjoiMSJ9.5Z5yTwL-oa1r18Ah_zf9OdziZtM7NtJzJKlf3z7Il1TW59ewKN3AV-xd1Sp_umuOOALz-aVA6E2NJLrXWHeLFDE5elGuad1FSlAssbTUbjcDBKz8v8ReLAvvM2tqtfmFPhRLxZGwYdD8A-48BSdvxHWD5EvD0QzjZflocZzEmANWPoHwBiEWtGY7w7Xx1UjsjRZmQ1RUcovx4-lWUT76OoSHjcLWHLa8eSIcKfkLyaOcRxWTOAPCxnzyHRSHcE5plOvdJ5nmDBFe1jONBd-qSLu8vIX1pfRRRpM9l569yoI.V6DfrfmZAo0mNvh33ihirUuATpgWLbpkmQYa-HreE7c&dib_tag=se&keywords=breadboard&qid=1784220845&s=industrial&sprefix=breadboard%2Cindustrial%2C254&sr=1-3&th=1"> Link </a> |
 
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 # resources
 |:--:|:--:|:--:|:--:|
