@@ -104,6 +104,69 @@ For your second milestone, explain what you've worked on since your previous mil
 
 -My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
 
+
+
+'''HTML 
+<!--- This is an HTML comment in Markdown -->
+float filteredValue = 0;
+
+void setup() {
+  Serial.begin(9600);
+
+  // LED pins
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+
+  // Startup LED test
+  digitalWrite(10, HIGH);
+  delay(50);
+  digitalWrite(9, HIGH);
+  delay(50);
+  digitalWrite(8, HIGH);
+  delay(50);
+
+  digitalWrite(10, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(8, LOW);
+}
+
+void loop() {
+
+  // Average 5 readings
+  long total = 0;
+
+  for (int i = 0; i < 5; i++) {
+    total += analogRead(A0);
+    delay(2);
+  }
+
+  float sensorValue = total / 5.0;
+
+  // Light smoothing (more responsive)
+  filteredValue = 0.70 * filteredValue + 0.30 * sensorValue;
+
+  // LED indicators
+  digitalWrite(10, filteredValue > 300);
+  digitalWrite(9, filteredValue > 600);
+  digitalWrite(8, filteredValue > 900);
+
+  // Serial Plotter scale
+  Serial.print(95);
+  Serial.print(",");
+  Serial.print(115);
+  Serial.print(",");
+  Serial.println(filteredValue);
+
+  delay(50);
+}
+<!--- Anything between these symbols will not render on the published site -->```
+
+
+
+
+
+
 # Schematics For Lie Detector
 
 <img src="updated schematic.png" alt="Headstone Image" width="500">
