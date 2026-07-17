@@ -14,10 +14,10 @@ The electrodermal lie detector uses galvanic skin response (GSR), a polygraph an
 [![Watch my Final Milestone Video](https://img.youtube.com/vi/TLuJjwm-FQw/0.jpg)](https://youtu.be/TLuJjwm-FQw)
 
 For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- My accomplishments for this milestone were getting the lie detector to work and make it as accurate as possible.
+- My biggest challenge was the consistency of errors and setbacks of my wiring and coding but due to these errors, i was able to redo my project and make it better than it was before since the wires kept cluttering not only the breadboard but also the arduino, making it hard to see the columns and where the wires are suppose to go. 
+- I learned about  A summary of key topics you learned about
+- I hope to use the knowledge that i gained at BSE throughout my journey and then pass the knowledge i gained from BSE onto others who also want to try or commit to their journey of engineering.
 
  
 
