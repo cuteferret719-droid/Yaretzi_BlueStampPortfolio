@@ -11,7 +11,9 @@ The electrodermal lie detector uses galvanic skin response (GSR), a polygraph an
 
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TLuJjwm-FQw?si=GtFdbugRwMzV1Xhj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TLuJjwm-FQw?si=GtFdbugRwMzV1Xhj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen</iframe>
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
