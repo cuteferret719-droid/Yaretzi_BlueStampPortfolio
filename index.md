@@ -2,7 +2,49 @@
 
 The electrodermal lie detector uses galvanic skin response (GSR), a polygraph and aluminum and copper probes to help determine if the person being trialed is telling the truth or not through the use of sweat, skin activity and it can also keep track of the persons skin activity. Throughout this journey the electrodermal lie detector had experienced many setbacks to where the schematic was redesigned and tested which took 3-5 days to finish and also experienced modifications to make the electrodermal lie detector as accurate as possible but despite these setbacks im now confident in coding, knowing the basics of an arduino and knowing which wire goes into what column.
 
-# Code for lie detector
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|:--:|
+| Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore |
+
+ # Project
+
+<img src="project BSE.jpg" alt="Headstone Image" width="500">
+
+# Final Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE
+
+
+
+# Second Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+- Technical details of what you've accomplished and how they contribute to the final goal
+- What has been surprising about the project so far
+- Previous challenges you faced that you overcame
+- What needs to be completed before your final milestone 
+
+# First Milestone Video 
+
+[![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
+
+-What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
+
+-what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
+
+-the challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
+
+-My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
+
+# Code for Electrodermal Lie detector
 
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
@@ -61,110 +103,6 @@ void loop() {
 
 <!--- Anything between these symbols will not render on the published site -->
 ```
-
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
-| Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore |
-
- # Project
-
-<img src="project BSE.jpg" alt="Headstone Image" width="500">
-
-# Final Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-
-
-# Second Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
-# First Milestone Video 
-
-[![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
-
--What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
-
--what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
-
--the challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
-
--My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
-
-
-
-'''HTML 
-<!--- This is an HTML comment in Markdown -->
-float filteredValue = 0;
-
-void setup() {
-  Serial.begin(9600);
-
-  // LED pins
-  pinMode(10, OUTPUT);
-  pinMode(9, OUTPUT);
-  pinMode(8, OUTPUT);
-
-  // Startup LED test
-  digitalWrite(10, HIGH);
-  delay(50);
-  digitalWrite(9, HIGH);
-  delay(50);
-  digitalWrite(8, HIGH);
-  delay(50);
-
-  digitalWrite(10, LOW);
-  digitalWrite(9, LOW);
-  digitalWrite(8, LOW);
-}
-
-void loop() {
-
-  // Average 5 readings
-  long total = 0;
-
-  for (int i = 0; i < 5; i++) {
-    total += analogRead(A0);
-    delay(2);
-  }
-
-  float sensorValue = total / 5.0;
-
-  // Light smoothing (more responsive)
-  filteredValue = 0.70 * filteredValue + 0.30 * sensorValue;
-
-  // LED indicators
-  digitalWrite(10, filteredValue > 300);
-  digitalWrite(9, filteredValue > 600);
-  digitalWrite(8, filteredValue > 900);
-
-  // Serial Plotter scale
-  Serial.print(95);
-  Serial.print(",");
-  Serial.print(115);
-  Serial.print(",");
-  Serial.println(filteredValue);
-
-  delay(50);
-}
-<!--- Anything between these symbols will not render on the published site -->```
-
-
-
-
 
 
 # Schematics For Lie Detector
