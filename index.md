@@ -6,13 +6,13 @@ The electrodermal lie detector uses galvanic skin response (GSR), a polygraph an
 |:--:|:--:|:--:|:--:|
 | Yaretzi H | KIPP College Prep | Biomedical Engineering | Incoming Sophmore |
 
- # Project
 
 <img src="project BSE.jpg" alt="Headstone Image" width="500">
 
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
+
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -20,29 +20,19 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
-
-# Second Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+ 
 
 # First Milestone Video 
 
 [![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
 
--What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
+*What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
 
--what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
+*What needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
 
--the challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
+*The challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
 
--My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
+*My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
 
 # Code for Electrodermal Lie detector
 
@@ -119,7 +109,7 @@ void loop() {
 | Breadboard| used for testing electronic circuits  | $5.67 | <a href="https://www.amazon.com/BOJACK-Values-Solderless-Breadboard-Flexible/dp/B08Y59P6D1/ref=sr_1_3?crid=WTOWOV0EMTN1&dib=eyJ2IjoiMSJ9.5Z5yTwL-oa1r18Ah_zf9OdziZtM7NtJzJKlf3z7Il1TW59ewKN3AV-xd1Sp_umuOOALz-aVA6E2NJLrXWHeLFDE5elGuad1FSlAssbTUbjcDBKz8v8ReLAvvM2tqtfmFPhRLxZGwYdD8A-48BSdvxHWD5EvD0QzjZflocZzEmANWPoHwBiEWtGY7w7Xx1UjsjRZmQ1RUcovx4-lWUT76OoSHjcLWHLa8eSIcKfkLyaOcRxWTOAPCxnzyHRSHcE5plOvdJ5nmDBFe1jONBd-qSLu8vIX1pfRRRpM9l569yoI.V6DfrfmZAo0mNvh33ihirUuATpgWLbpkmQYa-HreE7c&dib_tag=se&keywords=breadboard&qid=1784220845&s=industrial&sprefix=breadboard%2Cindustrial%2C254&sr=1-3&th=1"> Link </a> |
 
 
-# resources
+# Resources
 
 |:--:|:--:|:--:|:--:|
 | Breadboard tutorial | By LeftyMaker | <a href="https://www.youtube.com/watch?v=W6mixXsn-Vc"> Link </a> |
