@@ -1,6 +1,6 @@
 # Yaretzi's electrodermal lie detector journey
 
-The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat, skin activity and it can also keep track of the persons pulse rate to also help determine if the person is lying. The electrodermal Lie detector 
+The electrodermal lie detector uses galvanic skin response (GSR), a polygraph and aluminum and copper probes to help determine if the person being trialed is telling the truth or not through the use of sweat, skin activity and it can also keep track of the persons skin activity. Throughout this journey the electrodermal lie detector had experienced many setbacks to where the schematic was redesigned and tested which took 3-5 days to finish and also experienced modifications to make the electrodermal lie detector as accurate as possible but despite these setbacks im now confident in coding, knowing the basics of an arduino and knowing which wire goes into what column.
 
 # Code for lie detector
 
@@ -97,14 +97,16 @@ For your second milestone, explain what you've worked on since your previous mil
 [![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
 
 -What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
+
 -what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
--the challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector. 
--My accomplishments are 
+
+-the challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
+
+-My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
 
 # Schematics For Lie Detector
 
-<img src="updated schematic.png" alt="Headstone Image" width="500">. 
-
+<img src="updated schematic.png" alt="Headstone Image" width="500">
 # Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
@@ -117,9 +119,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 # resources
-|:--:|:--:|:--:|:--:|
 
-| Breadboard tutorial | by LeftyMaker | <a href="https://www.youtube.com/watch?v=W6mixXsn-Vc"> Link </a> |
-| arduino tutorial | by Robonyx | <a href="https://www.youtube.com/watch?v=tiGw9PQbvrg"> Link </a> |
-|GSR Based Lie Detector| by Ashwini Kumar Sinha| <a href="https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Breadboard tutorial | By LeftyMaker | <a href="https://www.youtube.com/watch?v=W6mixXsn-Vc"> Link </a> |
+| arduino tutorial | By Robonyx | <a href="https://www.youtube.com/watch?v=tiGw9PQbvrg"> Link </a> |
+|GSR Based Lie Detector| By Ashwini Kumar Sinha | <a href="https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device"> Link </a> |
+|How to build an Arduino lie detector based on electrodermal activity| By Nikhil Agnihotri | <a href="https://www.engineersgarage.com/arduino-lie-detector-electrodermal-activity/"> Link </a> |
 
