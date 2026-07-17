@@ -1,6 +1,6 @@
 # Yaretzi's electrodermal lie detector journey
 
-The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat and skin activity and it can also keep track of the persons pulse rate to also help determine if the person is lying.  
+The electrodermal lie detector uses galvanic skin response (GSR) and a polygraph to help determine if the person being trialed is telling the truth or not through the use of sweat, skin activity and it can also keep track of the persons pulse rate to also help determine if the person is lying. The electrodermal Lie detector 
 
 # Code for lie detector
 
@@ -72,8 +72,6 @@ void loop() {
 
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
@@ -85,8 +83,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -102,7 +98,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 -What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
 -what needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
--the challenges i've faced and overcame is the wiring overlapping
+-the challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector. 
+-My accomplishments are 
 
 # Schematics For Lie Detector
 
@@ -124,4 +121,5 @@ For your second milestone, explain what you've worked on since your previous mil
 
 | Breadboard tutorial | by LeftyMaker | <a href="https://www.youtube.com/watch?v=W6mixXsn-Vc"> Link </a> |
 | arduino tutorial | by Robonyx | <a href="https://www.youtube.com/watch?v=tiGw9PQbvrg"> Link </a> |
+|GSR Based Lie Detector| by Ashwini Kumar Sinha| <a href="https://www.electronicsforu.com/electronics-projects/gsr-based-lie-detector-device"> Link </a> |
 
