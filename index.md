@@ -11,8 +11,7 @@ The electrodermal lie detector uses galvanic skin response (GSR), a polygraph an
 
 # Final Milestone
 
-[![Watch my Final Milestone Video]( )](https://www.youtube.com/watch?v=TLuJjwm-FQw)
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TLuJjwm-FQw?si=GtFdbugRwMzV1Xhj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -26,13 +25,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 [![Watch my First Milestone Video](https://img.youtube.com/vi/weRS4PkNmuc/0.jpg)](https://www.youtube.com/watch?v=weRS4PkNmuc)
 
-*What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
+- What has been surprising about the project is the code tricked the polygraph into zooming into the line to have a better view on the skin activity rate.
 
-*What needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
+- What needs to be completed is making the lie detector as accurate as possible and to minimize the noise level.
 
-*The challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
+- The challenges i've faced and overcame is the wiring overlapping eachother, having to rewire the whole set and testing different codes for the lie detector and overcame these by going to innovation labs, asking help from the instructors and using tutorials to help me understand the basics of arduino's and breadboards
 
-*My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
+- My accomplishments are completing the base project of the Electrodermal Lie Detector and my first milestone video.
 
 # Code for Electrodermal Lie detector
 
